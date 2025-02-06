@@ -35,7 +35,7 @@ export default function DevelopersList() {
                 >
                     <h1 className="text-4xl font-medium">{name}</h1>
                     <div className="space-y-2">
-                        <div className="flex items-center justify-start gap-8">
+                        <div className="flex flex-col md:flex-row md:items-center justify-start gap-2 md:gap-8">
                             <div className="flex items-center gap-1 text-gray-300">
                                 <Briefcase color="white" size={18} />
                                 <p>Experience:</p>
@@ -76,7 +76,7 @@ export default function DevelopersList() {
                             </div>
                         ))}
                     </div>
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-wrap items-center gap-4">
                         {
                             userSkills.map(({ skill: { name } }, idx) => (
                                 <div key={idx} className="flex items-center gap-2 text-gray-300">
@@ -85,7 +85,7 @@ export default function DevelopersList() {
                             ))
                         }
                     </div>
-                    <Button className="w-full bg-[#750ce7] hover:bg-[#560ba6] text-lg font-medium h-12 ">Get a Quote <ArrowRight strokeWidth={3} size={35} /> </Button>
+                    <Button className="w-full bg-[#750ce7] hover:bg-[#560ba6] text-lg font-semibold h-12 ">Get a Quote <ArrowRight strokeWidth={4} size={40} /> </Button>
                 </div>
             ))}
         </div>
