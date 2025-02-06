@@ -2,7 +2,10 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, create a new file called .env under the root directory.
+and past it (DATABASE_URL=mongodb+srv://xpo:1122334455@cluster0.toh0ohl.mongodb.net/xpo?retryWrites=true&w=majority&appName=Cluster0) in .env file.
+
+Now, run the development server:
 
 ```bash
 npm run dev
@@ -11,7 +14,7 @@ yarn dev
 # or
 pnpm dev
 # or
-bun dev
+bun dev --turbo
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
