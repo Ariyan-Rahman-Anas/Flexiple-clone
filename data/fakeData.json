@@ -1,0 +1,229 @@
+[
+    {
+      "name": "Pawan Yadav",
+      "experience": 3,
+      "noticePeriod": "Immediately Available",
+      "currentCTC": "₹4LPA",
+      "createdAt": "2025-02-06T00:00:00.000Z",
+      "updatedAt": "2025-02-06T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Junior Application Developer",
+          "companyName": "Ank IT",
+          "startDate": "2023-05-01T00:00:00.000Z",
+          "endDate": "2024-07-01T00:00:00.000Z",
+          "duration": 14
+        },
+        {
+          "role": "Software Developer",
+          "companyName": "Rudratech IT",
+          "startDate": "2021-01-01T00:00:00.000Z",
+          "endDate": "2022-11-01T00:00:00.000Z",
+          "duration": 22
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "Vue.js" } },
+        { "skill": { "name": "Node.js" } },
+        { "skill": { "name": "React.js" } }
+      ]
+    },
+    {
+      "name": "Arjun Singh",
+      "experience": 5,
+      "noticePeriod": "1 Month",
+      "currentCTC": "₹6LPA",
+      "createdAt": "2025-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Full Stack Developer",
+          "companyName": "Tech Solutions",
+          "startDate": "2020-01-01T00:00:00.000Z",
+          "endDate": "2022-12-01T00:00:00.000Z",
+          "duration": 36
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "Angular" } },
+        { "skill": { "name": "Node.js" } },
+        { "skill": { "name": "MySQL" } }
+      ]
+    },
+    {
+      "name": "Riya Kapoor",
+      "experience": 4,
+      "noticePeriod": "Immediately Available",
+      "currentCTC": "₹5LPA",
+      "createdAt": "2024-12-01T00:00:00.000Z",
+      "updatedAt": "2024-12-01T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Frontend Developer",
+          "companyName": "Web Creators",
+          "startDate": "2019-01-01T00:00:00.000Z",
+          "endDate": "2023-06-01T00:00:00.000Z",
+          "duration": 54
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "React.js" } },
+        { "skill": { "name": "TypeScript" } },
+        { "skill": { "name": "Bootstrap" } }
+      ]
+    },
+    {
+      "name": "Aman Verma",
+      "experience": 2,
+      "noticePeriod": "2 Weeks",
+      "currentCTC": "₹3LPA",
+      "createdAt": "2025-01-15T00:00:00.000Z",
+      "updatedAt": "2025-01-15T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Backend Developer",
+          "companyName": "Code Labs",
+          "startDate": "2022-01-01T00:00:00.000Z",
+          "endDate": "2024-01-01T00:00:00.000Z",
+          "duration": 24
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "Node.js" } },
+        { "skill": { "name": "MongoDB" } },
+        { "skill": { "name": "RESTful API" } }
+      ]
+    },
+    {
+      "name": "Priya Sharma",
+      "experience": 6,
+      "noticePeriod": "1 Month",
+      "currentCTC": "₹7LPA",
+      "createdAt": "2024-11-01T00:00:00.000Z",
+      "updatedAt": "2024-11-01T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Senior Software Engineer",
+          "companyName": "InnoTech",
+          "startDate": "2018-01-01T00:00:00.000Z",
+          "endDate": "2024-01-01T00:00:00.000Z",
+          "duration": 72
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "Spring Boot" } },
+        { "skill": { "name": "JavaScript" } },
+        { "skill": { "name": "React.js" } }
+      ]
+    },
+    {
+      "name": "Rahul Gupta",
+      "experience": 3,
+      "noticePeriod": "Immediately Available",
+      "currentCTC": "₹4.5LPA",
+      "createdAt": "2024-10-01T00:00:00.000Z",
+      "updatedAt": "2024-10-01T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Mobile App Developer",
+          "companyName": "Appify",
+          "startDate": "2020-01-01T00:00:00.000Z",
+          "endDate": "2023-01-01T00:00:00.000Z",
+          "duration": 36
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "React Native" } },
+        { "skill": { "name": "Node.js" } },
+        { "skill": { "name": "RESTful API" } }
+      ]
+    },
+    {
+      "name": "Sakshi Mehta",
+      "experience": 5,
+      "noticePeriod": "2 Months",
+      "currentCTC": "₹8LPA",
+      "createdAt": "2024-09-01T00:00:00.000Z",
+      "updatedAt": "2024-09-01T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "UI/UX Designer",
+          "companyName": "DesignPro",
+          "startDate": "2017-01-01T00:00:00.000Z",
+          "endDate": "2022-01-01T00:00:00.000Z",
+          "duration": 60
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "Figma" } },
+        { "skill": { "name": "Adobe XD" } },
+        { "skill": { "name": "CSS" } }
+      ]
+    },
+    {
+      "name": "Nikhil Jain",
+      "experience": 7,
+      "noticePeriod": "3 Months",
+      "currentCTC": "₹10LPA",
+      "createdAt": "2024-08-01T00:00:00.000Z",
+      "updatedAt": "2024-08-01T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Technical Lead",
+          "companyName": "TechWorks",
+          "startDate": "2016-01-01T00:00:00.000Z",
+          "endDate": "2024-01-01T00:00:00.000Z",
+          "duration": 96
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "Node.js" } },
+        { "skill": { "name": "Angular" } },
+        { "skill": { "name": "TypeScript" } }
+      ]
+    },
+    {
+      "name": "Ankita Roy",
+      "experience": 1,
+      "noticePeriod": "1 Month",
+      "currentCTC": "₹2LPA",
+      "createdAt": "2025-02-01T00:00:00.000Z",
+      "updatedAt": "2025-02-01T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Intern Developer",
+          "companyName": "Startup Inc",
+          "startDate": "2023-01-01T00:00:00.000Z",
+          "endDate": "2024-01-01T00:00:00.000Z",
+          "duration": 12
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "React.js" } },
+        { "skill": { "name": "JavaScript" } },
+        { "skill": { "name": "CSS" } }
+      ]
+    },
+    {
+      "name": "Vikram Singh",
+      "experience": 4,
+      "noticePeriod": "2 Months",
+      "currentCTC": "₹5.5LPA",
+      "createdAt": "2024-07-01T00:00:00.000Z",
+      "updatedAt": "2024-07-01T00:00:00.000Z",
+      "experiences": [
+        {
+          "role": "Software Engineer",
+          "companyName": "InnovateHub",
+          "startDate": "2019-01-01T00:00:00.000Z",
+          "endDate": "2023-01-01T00:00:00.000Z",
+          "duration": 48
+        }
+      ],
+      "userSkills": [
+        { "skill": { "name": "JavaScript" } },
+        { "skill": { "name": "Spring Boot" } },
+        { "skill": { "name": "MongoDB" } }
+      ]
+    }
+  ]
