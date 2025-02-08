@@ -7,7 +7,7 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 import Image from "next/image"
-import user from "./../assets/user.webp"
+import user from "./../../assets/user.webp"
 
 
 const Testimonial = () => {

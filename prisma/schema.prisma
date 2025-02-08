@@ -7,7 +7,8 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-type DeveloperExperiences {
+// Reusable types (embedded documents)
+type Experience {
   companyName String
   duration    Int
   endDate     String
@@ -15,50 +16,32 @@ type DeveloperExperiences {
   startDate   String
 }
 
-type DeveloperUserSkills {
-  skill DeveloperUserSkillsSkill
+type UserSkill {
+  skill Skill
 }
 
-type DeveloperUserSkillsSkill {
+type Skill {
   name String
 }
 
-type DevelopersExperiences {
-  companyName String
-  duration    Int
-  endDate     String
-  role        String
-  startDate   String
-}
-
-type DevelopersUserSkills {
-  skill DevelopersUserSkillsSkill
-}
-
-type DevelopersUserSkillsSkill {
-  name String
-}
-
-model developer {
-  id           String                 @id @default(auto()) @map("_id") @db.ObjectId
+// Main Developer model
+model Developer {
+  id           String      @id @default(auto()) @map("_id") @db.ObjectId
   createdAt    String
+  updatedAt    String
+  name         String
   currentCTC   String
   experience   Int
-  experiences  DeveloperExperiences[]
-  name         String
   noticePeriod String
-  updatedAt    String
-  userSkills   DeveloperUserSkills[]
+  experiences  Experience[]
+  userSkills   UserSkill[]
 }
 
-model developers {
-  id           String                  @id @default(auto()) @map("_id") @db.ObjectId
-  createdAt    String
-  currentCTC   String
-  experience   Int
-  experiences  DevelopersExperiences[]
-  name         String
-  noticePeriod String
-  updatedAt    String
-  userSkills   DevelopersUserSkills[]
+
+model Faq {
+  id        String @id @default(auto()) @map("_id") @db.ObjectId
+  question  String
+  answer    String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }

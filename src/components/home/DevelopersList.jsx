@@ -3,7 +3,7 @@
 import ApiSpinner from "@/app/ApiSpinner";
 import { ArrowRight, Briefcase, Calendar, DollarSign } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 export default function DevelopersList() {
     const [developers, setDevelopers] = useState([]);
@@ -21,7 +21,6 @@ export default function DevelopersList() {
                 setLoading(false);
             }
         }
-
         fetchDevelopers();
     }, []);
 

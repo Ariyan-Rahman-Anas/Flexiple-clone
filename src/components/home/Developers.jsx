@@ -1,7 +1,7 @@
 import { ArrowRight, ChevronRight, House } from "lucide-react"
 import DevelopersList from "./DevelopersList"
-import { Button } from "./ui/button"
 import Link from "next/link"
+import { Button } from "../ui/button"
 
 const Developers = () => {
 
